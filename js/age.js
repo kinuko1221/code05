@@ -4,5 +4,8 @@ function isMajority(a){
     return result;
 }
 
-function inCompulsoryEducation(){
+function inCompulsoryEducation(age){
+    var result;
+    result = (age >= 6) && (age < 16)
+    return result;
 }
