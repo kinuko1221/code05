@@ -11,7 +11,13 @@ function isAcceptableNumber(a){
     return result;
 }
 
-function isMultipleOf5(){
+function isMultipleOf5(number){
+    if(number % 5 == 0){
+       return 1;
+    }
+    if!(number % 5 == 0){
+       return 0; 
+    }
 }
 
 function divideBy2(){
