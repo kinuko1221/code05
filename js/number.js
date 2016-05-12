@@ -20,5 +20,10 @@ function isMultipleOf5(number){
     }
 }
 
-function divideBy2(){
+function divideBy2(number){
+    if(number % 2 == 1){
+        number = number + 1;
+    }
+    return number / 2;
+    
 }
