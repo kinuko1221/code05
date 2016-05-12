@@ -1,4 +1,8 @@
-function isEvenNumber(){
+function isEvenNumber(a){
+    var result;
+    result == a % 2 = 0
+    return result;
+    
 }
 
 function isAcceptableNumber(){
