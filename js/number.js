@@ -15,7 +15,7 @@ function isMultipleOf5(number){
     if(number % 5 == 0){
        return 1;
     }
-    if!(number % 5 == 0){
+    else{
        return 0; 
     }
 }
